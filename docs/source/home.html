@@ -1,0 +1,20 @@
+<html>
+<body>
+<label>Enter Num1:</label>
+<input type="text" id="a"><br></br>
+<label>Enter Num2:</label>
+<input type="text" id="b"><br></br>
+<input type="button" value="Addition" onclick="add()"><br></br>
+<div id="res"> </div>
+<script>
+    function add()
+    {
+       var a = parseInt(document.getElementById("a").value);
+       var b = parseInt(document.getElementById("b").value);
+       var sum = a+b;
+       document.getElementById("res").innerHTML=sum;
+    }
+</script>
+
+</body>
+</html>
